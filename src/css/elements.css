@@ -1,0 +1,185 @@
+.buttonShowCategory {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.buttonShowCategory button {
+    font-weight: 600;
+}
+
+.buttonBackHome {
+    cursor: pointer;
+    margin: 1%;
+}
+
+
+.styleModels {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.models {
+    width: 80%;
+}
+
+.styleModelsImages {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.styleModelsImages:hover {
+    transform: scale(0.9, 0.9);
+    opacity: 0.9;
+}
+
+.styleModelsImages img {
+    height: 300px;
+    width: 100%;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+/* popupShow data id Category */
+.popUpUserImage img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.popUpUserImage p {
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popUpUserImage h5 {
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+
+
+.positionCategory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.positionCategory p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.positionCategory p:hover {
+    color: rgba(0, 0, 0, 0.626);
+}
+
+
+.titleCategory {
+    display: flex;
+    justify-content: center;
+}
+
+.titleCategory h1 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.closePopUp {
+    display: flex;
+    justify-content: end;
+    padding: 4%;
+}
+
+
+.closePopUp h1 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.closePopUp h1:hover {
+    color: rgba(0, 0, 0, 0.626);
+}
+
+
+
+.modal-content {
+    background: url("https://i.postimg.cc/0NVmfCT8/9.png") !important;
+}
+
+
+
+.typeCategory {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.typeCategory p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.typeCategory {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+
+
+
+/* next button and move back */
+.nextBackButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.nextBackButton h2 {
+    font-size: 16px;
+}
+
+
+.prevButton {
+    display: flex;
+    justify-content: start;
+}
+
+.nextButton {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+@media(max-width:991px) {
+
+    .homeStyle img {
+        height: 250px;
+    }
+
+    .aboutApp p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .aboutApp {
+        padding: 10%;
+    }
+}

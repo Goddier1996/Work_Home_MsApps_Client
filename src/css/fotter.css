@@ -1,0 +1,10 @@
+.titleFotter {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.titleFotter p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 600;
+}
